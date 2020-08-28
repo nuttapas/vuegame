@@ -1,28 +1,29 @@
 <template>
-  <div id="app">
-    <vuegame/>
-  <p>{{choseName}}</p>
-</div>
+  <div id="app" class>
+      <vuegame />
+    <player />
+  </div>
 </template>
 
 <script>
-import vuegame from './components/vuegame.vue'
+
+import vuegame from "./components/vuegame";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  vuegame,
+    
+    vuegame,
   },
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Londrina Solid', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #646464;
 }
 </style>
